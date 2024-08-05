@@ -56,10 +56,10 @@ const Portfolio = () => {
                             <a href="#">
                                 <figure className='project-img'>
                                { <div className='project-item-icon-box'>
-                                    <FaRegEye />
+                                    <FaRegEye onClick={() =>{handleImageClick(project.imageUrl)}}/>
                                 </div>}
-                                    <img src={project.image} target='_blank' rel='noopener,noreferrer' alt={project.title} width="350" 
-                                    onClick={()=> handleImageClick(project.imageUrl)} style={{cursor: 'pointer'}} />
+                                    <img src={project.image} alt={project.title} width="350" 
+                                    /* onClick={()=> handleImageClick(project.imageUrl)} */  />
                                 </figure>
                                 <h3 className='project-title'>{project.title}</h3>
                                 <p className='project-category'>{project.category}</p>

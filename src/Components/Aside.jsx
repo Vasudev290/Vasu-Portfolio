@@ -5,10 +5,19 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaRegPaperPlane } from "react-icons/fa";
 import Img from '../../public/images/Vasu.jpg'
 const Git = `https://github.com/Vasudev290`
 const Linkedin= `https://www.linkedin.com/in/vasudev31/`
 const Aside = () => {
+
+    const handleDownload = () => {
+        const link = document.getElementById('cvDownloadLink');
+        if (link) {
+          link.click();
+        }
+      };
+
   return (
     <aside className='sidebar'>
         <div className='sidebar-info'>
@@ -34,7 +43,7 @@ const Aside = () => {
                     </div>
                     <div className='contact-info'>
                         <p className='contact-title'>Email</p>
-                        <a href="mailto: vasukesavulu@gmail.com" className='contact-link'>vasukesavulu@gmail.com</a>
+                        <a href="mailto:vasukesavulu@gmail.com" className='contact-link'>vasukesavulu@gmail.com</a>
                     </div>
                 </li>
                 <li className='contact-item'>
@@ -62,6 +71,16 @@ const Aside = () => {
                     <div className='contact-info'>
                         <p className='contact-title'>Linkedin</p>
                         <a href={Linkedin} className='contact-link'>VasuDev31</a>
+                    </div>
+                </li>
+                <li className='contact-item'>
+                    <div className='icon-box'>
+                        < FaRegPaperPlane/>   
+                    </div>
+                    <div className='contact-info'>
+                        <p className='contact-title'>Resume</p>
+                        <button onClick={() => handleDownload()}  className='contact-link' style={{ padding: '10px', fontSize: '16px', cursor: 'pointer' }}>Download CV</button>
+                        <a href="\public/Resoures/VasuDevu-CV.pdf" id='cvDownloadLink' download="VasuDevu-CV.pdf" style={{display:'none'}}></a>
                     </div>
                 </li>
                 <li className='contact-item'>
