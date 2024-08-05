@@ -59,7 +59,7 @@ const Portfolio = () => {
                                     <FaRegEye onClick={() =>{handleImageClick(project.imageUrl)}}/>
                                 </div>}
                                     <img src={project.image} alt={project.title} width="350" 
-                                    /* onClick={()=> handleImageClick(project.imageUrl)} */  />
+                                     />
                                 </figure>
                                 <h3 className='project-title'>{project.title}</h3>
                                 <p className='project-category'>{project.category}</p>
