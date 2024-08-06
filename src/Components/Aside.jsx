@@ -12,7 +12,7 @@ const Linkedin= `https://www.linkedin.com/in/vasudev31/`
 const Aside = () => {
 
     const handleDownload = () => {
-        const link = document.getElementById('cvDownloadLink');
+        const link = document.getElementById('cvDownloadLink' );
         if (link) {
           link.click();
         }
