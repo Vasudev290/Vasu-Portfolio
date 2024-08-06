@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { FaRegEye } from 'react-icons/fa';
-import { json } from 'react-router';
 
-const Json = [
+
+const json = [
     {
         "id": 1,
         "title": "Tiger Gym",
@@ -76,18 +76,21 @@ const Json = [
   ]
 
 const Portfolio = () => {
-    const [projects, setprojects] = useState([Json]);
-    console.log("Json",projects)
+
+
+    const Obj = JSON.stringify(json);
+    console.log("data", Obj)
+    const [projects, setprojects] = useState(Obj);
     const [filteredProjects, setFilteredProjects] = useState([])
     const [selectedCategory, setSelectedCategory] = useState("All");
 
     useEffect(() => {
         const url = 'public/projects.json';
-        console.log("profilo",url)
+        console.log("profilo", url)
         fetch(url).then(res => res.json()).then(data => {
             // setprojects(data)
             console.log(data);
-            
+
             setFilteredProjects(data)
         })
     }, [])
