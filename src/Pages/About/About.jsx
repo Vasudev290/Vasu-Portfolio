@@ -24,8 +24,7 @@ const serviceData= [
   }
 ]
 
-const testmonioalData = 
-[
+const testmonioalData = [
     {
       "name": "Narasimha Reddy, Project Manager at Pro Stack Academy",
       "avatar": "/images/avatar-1.png",

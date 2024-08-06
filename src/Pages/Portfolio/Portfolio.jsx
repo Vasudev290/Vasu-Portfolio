@@ -11,7 +11,7 @@ const Portfolio = () => {
         fetch(url).then(res => {
             return res.json()
         }).then(data => {
-            console.log(data)
+            console.log(data);
             setprojects(data)
             setFilteredProjects(data)
         })
@@ -52,7 +52,8 @@ const Portfolio = () => {
             <section className='projects'>
                 <ul className='project-list'>
                     {
-                        filteredProjects.map(project => (
+                        filteredProjects.map(project =>
+                            (
                             <li key={project.id} className='project-item active'
                                 data-fliter-items
                                 data-category={project.category}

@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Tiger Gym",
       "category": "Frontend",
-      "image": "public/images/Project-1.PNG",
+      "image": "/images/Project-1.PNG",
       "imageUrl": "https://tigerfitness.vercel.app/"
   },
   {
