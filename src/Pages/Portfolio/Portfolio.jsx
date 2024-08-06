@@ -8,9 +8,11 @@ const Portfolio = () => {
 
     useEffect(() => {
         const url = 'public/projects.json';
+        console.log("profilo",url)
         fetch(url).then(res => res.json()).then(data => {
-            setprojects(data);
-            console.log("profilo data",data)
+            setprojects(data)
+            console.log(data);
+            
             setFilteredProjects(data)
         })
     }, [])
