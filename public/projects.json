@@ -10,63 +10,63 @@
       "id": 2,
       "title": "Fresh Organic",
       "category": "Frontend",
-      "image": "public/images/project-2.png",
+      "image": "/images/Project-2.PNG",
       "imageUrl": "https://vd-organic-grocery.vercel.app/"
   },
   {
       "id": 3,
       "title": "Travles",
       "category": "Frontend",
-      "image": "public/images/project-3.png",
+      "image": "/images/Project-3.PNG",
       "imageUrl": "https://vd-travelsweb.vercel.app/"
   },
   {
       "id": 4,
       "title": "Stomy App",
       "category": "Frontend",
-      "image": "public/images/project-4.png",
+      "image": "/images/Project-4.PNG",
       "imageUrl": "https://stromyapp.vercel.app/"
   },
   {
       "id": 5,
       "title": "TODO App.",
       "category": "Frontend",
-      "image": "public/images/project-5.png",
+      "image": "/images/Project-5.PNG",
       "imageUrl": "https://todoapp-one-henna.vercel.app/"
   },
   {
       "id": 6,
       "title": "Timepiece",
       "category": "Frontend",
-      "image": "public/images/project-6.png",
+      "image": "/images/Project-6.PNG",
       "imageUrl": "https://timepiece-iota.vercel.app/"
   },
   {
       "id": 7,
       "title": "CRUD Operation",
       "category": "Frontend + React",
-      "image": "public/images/project-7.png",
+      "image": "/images/Project-7.PNG",
       "imageUrl": "https://crud-app-ashen.vercel.app/"
   },
   {
       "id": 8,
       "title": "TIC TOC TOE",
       "category": "Frontend",
-      "image": "public/images/project-8.png",
+      "image": "/images/Project-8.PNG",
       "imageUrl": "https://tic-tac-toe-ivory-delta.vercel.app/"
   },
   {
       "id": 9,
       "title": "CARA E-com ",
       "category": "Frontend",
-      "image": "public/images/project-9.png",
+      "image": "/images/Project-9.PNG",
       "imageUrl": "https://cara-e-com-website.vercel.app/"
   },
   {
       "id": 10,
       "title": ".EATFOODS ",
       "category": "Frontend + React",
-      "image": "public/images/project-10.png",
+      "image": "/images/Project-10.PNG",
       "imageUrl": "https://eatfoods.vercel.app/"
   }
 ]
