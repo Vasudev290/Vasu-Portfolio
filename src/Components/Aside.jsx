@@ -80,7 +80,7 @@ const Aside = () => {
                     <div className='contact-info'>
                         <p className='contact-title'>Resume</p>
                         <button onClick={() => handleDownload()}  className='contact-link' style={{ padding: '10px', fontSize: '16px', cursor: 'pointer' }}>Download CV</button>
-                        <a href="\public/Resoures/VasuDevu.CV.pdf" id='cvDownloadLink' download="VasuDevu.CV.pdf" style={{display:'none'}}></a>
+                        <a href="/Resoures/VasuDevu.CV.pdf" id='cvDownloadLink' download="VasuDevu.CV.pdf" style={{display:'none'}}></a>
                     </div>
                 </li>
                 <li className='contact-item'>
