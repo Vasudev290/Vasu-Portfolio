@@ -7,9 +7,10 @@ const Portfolio = () => {
     const [selectedCategory, setSelectedCategory] = useState("All")
 
     useEffect(() => {
-        const url = 'public/projects.json'
+        const url = 'public/projects.json';
         fetch(url).then(res => res.json()).then(data => {
-            setprojects(data)
+            setprojects(data);
+            console.log("profilo data",data)
             setFilteredProjects(data)
         })
     }, [])

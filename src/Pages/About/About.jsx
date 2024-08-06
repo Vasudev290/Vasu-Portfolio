@@ -27,7 +27,7 @@ const About = () => {
   const [testimonials, setTestimonials]= useState([]);
   useEffect(()=>{
     fetch('public/testimonials.json').then((resp)=> resp.json().then(data => {
-      //console.log(data);
+      console.log(data);
     setTestimonials(data)
       
     }))
