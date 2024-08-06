@@ -4,12 +4,12 @@ import Testmonials from './Testmonials';
 const serviceData= [
   {
     "title": "Web design",
-    "icon": "public/images/icon-design.svg",
+    "icon": "/images/icon-design.svg",
     "description": "The most modern and high-quality design made at a professional level."
   },
   {
     "title": "Web development",
-    "icon": "public/images/icon-dev.svg",
+    "icon": "/images/icon-dev.svg",
     "description": "High-quality development of sites at the professional level."
   },
   {
