@@ -10,6 +10,11 @@
     ],
     "routes": [
       {
+        "rewrites": [
+          { "source": "/(.*)", "destination": "/" }
+        ]
+      },
+      {
         "src": "/projects",
         "dest": "public/projects.json"
       },
