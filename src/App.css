@@ -277,7 +277,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: rgb(20 189 48);
+  background: rgb(20, 189, 48);
   border-radius: 5px;
 }
 
