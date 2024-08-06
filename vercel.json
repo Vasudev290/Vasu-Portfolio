@@ -10,10 +10,6 @@
     ],
     "routes": [
       {
-        "src": "/testimonials",
-        "dest": "/public/testimonials.json"
-      },
-      {
         "src": "/projects",
         "dest": "/public/projects.json"
       },

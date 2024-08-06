@@ -4,12 +4,12 @@ import Testmonials from './Testmonials';
 const serviceData= [
   {
     "title": "Web design",
-    "icon": "/images/icon-design.svg",
+    "icon": "public/images/icon-design.svg",
     "description": "The most modern and high-quality design made at a professional level."
   },
   {
     "title": "Web development",
-    "icon": "/images/icon-dev.svg",
+    "icon": "public/images/icon-dev.svg",
     "description": "High-quality development of sites at the professional level."
   },
   {
@@ -23,15 +23,40 @@ const serviceData= [
     "description": "I make high-quality photos of any category at a professional level."
   }
 ]
+
+const testmonioalData = 
+[
+    {
+      "name": "Narasimha Reddy, Project Manager at Pro Stack Academy",
+      "avatar": "/images/avatar-1.png",
+      "testimonial": "Vasu consistently demonstrated exceptional web development skills during her time at Pro Stack Academy. Her ability to understand client requirements and deliver high-quality solutions exceeded our expectations."
+    },
+    {
+      "name": "Sushmitha, Senior Developer at Greet Labs PVT LTD",
+      "avatar": "/images/avatar-2.png",
+      "testimonial": "Vasu was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
+    },
+    {
+      "name": "Rithi, Team Lead at Greet Labs PVT LTD",
+      "avatar": "/images/avatar-3.png",
+      "testimonial": "Vasu's contributions to our web development projects were invaluable. Her expertise in full stack development and attention to detail ensured that our projects were completed on time and to the highest standards."
+    },
+    {
+      "name": "Vijay, Senior Developer at Pro Stack Academy",
+      "avatar": "/images/avatar-4.png",
+      "testimonial": "Working with Vasu was a pleasure. She brought innovative ideas to the table and effectively implemented them. Her collaborative approach and technical proficiency make her an asset to any development team."
+    }
+  ]
+  
 const About = () => {
   const [testimonials, setTestimonials]= useState([]);
-  useEffect(()=>{
+ /*  useEffect(()=>{
     fetch('public/testimonials.json').then((resp)=> resp.json().then(data => {
       console.log(data);
     setTestimonials(data)
       
     }))
-  },[])
+  },[]) */
   return (
     <div className='about active'>
           <header>
@@ -62,12 +87,13 @@ const About = () => {
             </ul>
           </section>
 
+
           {/* Testimonials Section */}
           <section className='testimonials'>
             <h3 className='h3 testimonials-title'>Testimonials</h3>
             <ul className='testimonials-list has-scrollbar'>
                {
-                testimonials.map((testimonial, index) => (
+                testmonioalData.map((testimonial, index) => (
                   <Testmonials key={index} name={testimonial.name} avatar={testimonial.avatar} testimonial={testimonial.testimonial}/>
                 ))
                }
