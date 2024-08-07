@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaRegPaperPlane } from "react-icons/fa";
-import Img from '../../public/images/Vasu.jpg'
+import Img from '../../public/images/Vasu2.jpeg'
 const Git = `https://github.com/Vasudev290`
 const Linkedin= `https://www.linkedin.com/in/vasudev31/`
 const Aside = () => {
@@ -22,7 +22,7 @@ const Aside = () => {
     <aside className='sidebar'>
         <div className='sidebar-info'>
             <figure className='avatar-box'>
-                <img src={Img} alt="" width={95} />
+                <img src={Img} alt="" width='300' />
             </figure>
             <div className='info-content'>
                 <h1 className='name'>Vasu Dev</h1>
