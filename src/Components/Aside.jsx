@@ -22,7 +22,7 @@ const Aside = () => {
     <aside className='sidebar'>
         <div className='sidebar-info'>
             <figure className='avatar-box'>
-                <img src={Img} alt="" width='300' />
+                <img src={Img} alt="" width='93' />
             </figure>
             <div className='info-content'>
                 <h1 className='name'>Vasu Dev</h1>
