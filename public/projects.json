@@ -68,5 +68,12 @@
       "category": "Frontend + React",
       "image": "/images/Project-10.PNG",
       "imageUrl": "https://eatfoods.vercel.app/"
-  }
+  },
+  {
+    "id": 11,
+    "title": "MERN Stack",
+    "category": "Full Stack (Frontend + Node)",
+    "image": "/images/Project-11.PNG",
+    "imageUrl": "https://github.com/Vasudev290/MERN-Stack"
+}
 ]
