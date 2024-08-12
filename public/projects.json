@@ -1,10 +1,10 @@
 [
   {
       "id": 1,
-      "title": "Tiger Gym",
-      "category": "Frontend",
+      "title": "Shop CART",
+      "category": "Frontend + React",
       "image": "/images/Project-1.PNG",
-      "imageUrl": "https://tigerfitness.vercel.app/"
+      "imageUrl": "https://shop-cart-e-com-website.vercel.app/"
   },
   {
       "id": 2,
@@ -75,5 +75,12 @@
     "category": "Full Stack (Frontend + Node)",
     "image": "/images/Project-11.PNG",
     "imageUrl": "https://github.com/Vasudev290/MERN-Stack"
-}
+  },
+  {
+    "id": 12,
+      "title": "Tiger Gym",
+      "category": "Frontend",
+      "image": "/images/Project-12.PNG",
+      "imageUrl": "https://tigerfitness.vercel.app/"
+  }
 ]
