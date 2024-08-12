@@ -11,7 +11,7 @@
     "routes": [
       {
         "src": "/projects",
-        "dest": "/projects.json"
+        "dest": "/public/projects.json"
       },
       {
         "src": "/(.*)",
