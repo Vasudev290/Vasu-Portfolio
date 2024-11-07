@@ -28,22 +28,22 @@ const testmonioalData = [
     {
       "name": "Narasimha Reddy, Project Manager at Pro Stack Academy",
       "avatar": "/images/avatar-1.png",
-      "testimonial": "Vasu consistently demonstrated exceptional web development skills during her time at Pro Stack Academy. Her ability to understand client requirements and deliver high-quality solutions exceeded our expectations."
+      "testimonial": "Vasu consistently demonstrated exceptional web development skills during his time at Pro Stack Academy. His ability to understand client requirements and deliver high-quality solutions exceeded our expectations."
     },
     {
       "name": "Sushmitha, Senior Developer at Greet Labs PVT LTD",
       "avatar": "/images/avatar-2.png",
-      "testimonial": "Vasu was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
+      "testimonial": "Vasu was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of the client."
     },
     {
       "name": "Rithi, Team Lead at Greet Labs PVT LTD",
       "avatar": "/images/avatar-3.png",
-      "testimonial": "Vasu's contributions to our web development projects were invaluable. Her expertise in full stack development and attention to detail ensured that our projects were completed on time and to the highest standards."
+      "testimonial": "Vasu's contributions to our web development projects were invaluable. His expertise in full stack development and attention to detail ensured that our projects were completed on time and to the highest standards."
     },
     {
       "name": "Vijay, Senior Developer at Pro Stack Academy",
       "avatar": "/images/avatar-4.png",
-      "testimonial": "Working with Vasu was a pleasure. She brought innovative ideas to the table and effectively implemented them. Her collaborative approach and technical proficiency make her an asset to any development team."
+      "testimonial": "Working with Vasu was a pleasure. He brought innovative ideas to the table and effectively implemented them. His collaborative approach and technical proficiency make his an asset to any development team."
     }
   ]
   

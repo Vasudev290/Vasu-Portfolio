@@ -13,7 +13,7 @@ const Skills = () => {
                   <SkillItem title="HTML" value={85}/>
                   <SkillItem title="CSS" value={75}/>
                   <SkillItem title="JavaScript" value={75}/>
-                  <SkillItem title="Python" value={75}/>
+                  <SkillItem title="Python" value={85}/>
             </ul>
             <br />
             <div className='skill'>
@@ -31,6 +31,8 @@ const Skills = () => {
             <ul className='skills-list content-card'>
                   <SkillItem title="Node.js" value={65}/>
                   <SkillItem title="Express.js" value={55}/>
+                  <SkillItem title="Django" value={65}/>
+                  <SkillItem title="FastAPI" value={55}/>
             </ul>
             </div>
             <br />
