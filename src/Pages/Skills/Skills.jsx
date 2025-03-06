@@ -21,6 +21,7 @@ const Skills = () => {
             <ul className='skills-list content-card'>
                   <SkillItem title="React.js" value={70}/>
                   <SkillItem title="Redux" value={70}/>
+                  <SkillItem title="Redux ToolKit" value={80}/>
                   <SkillItem title="TailWind" value={65}/>
                   <SkillItem title="Bootstrap" value={85}/>
             </ul>
@@ -31,8 +32,6 @@ const Skills = () => {
             <ul className='skills-list content-card'>
                   <SkillItem title="Node.js" value={65}/>
                   <SkillItem title="Express.js" value={55}/>
-                  <SkillItem title="Django" value={65}/>
-                  <SkillItem title="FastAPI" value={55}/>
             </ul>
             </div>
             <br />
