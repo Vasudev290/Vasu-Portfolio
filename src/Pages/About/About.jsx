@@ -89,10 +89,7 @@ const About = () => {
           I have developed full-stack projects, including ShopCART and
           RapidRetails, where I built responsive UIs using React.js, managed
           state with Redux, developed RESTful APIs with Node.js and Express, and
-          handled databases with MongoDB and MySQL.
-        </p>
-        <p>
-          With a strong foundation in business and technology, I am eager to
+          handled databases with MongoDB, MySQL and With a strong foundation in business and technology, I am eager to
           contribute to innovative projects and grow as a MERN Stack Developer.
         </p>
       </section>
