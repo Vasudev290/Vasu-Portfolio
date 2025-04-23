@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Service = ({title, icon, description}) => {
   return (
     <li className='service-item'>

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Testmonials = ({name, avatar, testimonial}) => {
   return (
     <li className='testimonials-item'>

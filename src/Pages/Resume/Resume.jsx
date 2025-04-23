@@ -1,4 +1,3 @@
-import React from "react";
 import { FaBookReader } from "react-icons/fa";
 import { RiHomeOfficeLine } from "react-icons/ri";
 import TimeLineItem from "./TimeLineItem";
@@ -47,16 +46,16 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimeLineItem
-            category="Full Stack Web Developer - Bootcamp"
+            category="Full Stack Web Development - Online Bootcamp"
             title="Pro Stack Academy, Bangalore"
             date=" February 2024 - August 2024"
             description="I completed a comprehensive full stack web development course from February 2024 to August 2024. This program provided in-depth training in modern web technologies, including HTML, CSS, JavaScript, React.js, Redux, Node.js, Express.js, MySQL, MongoDB, and Python. The hands-on approach helped me gain practical experience in both frontend and backend development, enabling me to build real-world applications."
           />
           <TimeLineItem
-            category="Full Stack Web Developer - Internship Trainee"
+            category="MERN Stack Developer"
             title="Greet Labs Pvt Ltd, Bangalore"
-            date=" October 2024 - December 2024"
-            description="I worked as an Internship Trainee from October 2024 to December 2024, gaining hands-on experience in full stack web development. This role allowed me to apply my technical skills in a professional environment, working on various web projects, collaborating with a team of developers, and improving my expertise in React.js, Redux, Node.js, Express.js, MongoDB, and MySQL."
+            date=" february 2024 - March 2025"
+            description="As a Full-Time MERN Stack Developer at Greet Labs Pvt Ltd, I have been involved in developing and maintaining full-stack web applications using React.js, Redux, Node.js, Express.js, MongoDB, and MySQL. I’ve collaborated with cross-functional teams to build scalable, responsive, and user-friendly interfaces, designed RESTful APIs, and ensured seamless data management across the stack. My responsibilities also include optimizing performance, debugging production issues, and contributing to clean, maintainable code following best practices."
           />
         </ol>
       </div>

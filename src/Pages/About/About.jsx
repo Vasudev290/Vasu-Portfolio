@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+
 import Service from "./Service";
 import Testmonials from "./Testmonials";
+
+// Service Data
 const serviceData = [
   {
     title: "Web design",
@@ -27,6 +29,7 @@ const serviceData = [
   },
 ];
 
+// Testimonials Data
 const testmonioalData = [
   {
     name: "Narasimha Reddy, Project Manager at Pro Stack Academy",
@@ -50,24 +53,17 @@ const testmonioalData = [
     name: "Vijay, Senior Developer at Pro Stack Academy",
     avatar: "/images/avatar-4.png",
     testimonial:
-      "Working with Vasu was a pleasure. He brought innovative ideas to the table and effectively implemented them. His collaborative approach and technical proficiency make his an asset to any development team.",
+      "Working with Vasu was a pleasure. He brought innovative ideas to the table and effectively implemented them. His collaborative approach and technical proficiency make him an asset to any development team.",
   },
 ];
 
 const About = () => {
-  const [testimonials, setTestimonials] = useState([]);
-  /*  useEffect(()=>{
-    fetch('public/testimonials.json').then((resp)=> resp.json().then(data => {
-      console.log(data);
-    setTestimonials(data)
-      
-    }))
-  },[]) */
   return (
     <div className="about active">
       <header>
         <h2 className="h2 article-title">About Me</h2>
       </header>
+
       <section className="about-text">
         <p>
           I completed my Bachelor of Business Administration (BBA) in 2022 and
@@ -89,14 +85,15 @@ const About = () => {
           I have developed full-stack projects, including ShopCART and
           RapidRetails, where I built responsive UIs using React.js, managed
           state with Redux, developed RESTful APIs with Node.js and Express, and
-          handled databases with MongoDB, MySQL and With a strong foundation in business and technology, I am eager to
-          contribute to innovative projects and grow as a MERN Stack Developer.
+          handled databases with MongoDB, MySQL. With a strong foundation in
+          business and technology, I am eager to contribute to innovative
+          projects and grow as a MERN Stack Developer.
         </p>
       </section>
 
-      {/* Section */}
+      {/* What I'm Doing Section */}
       <section className="service">
-        <h2 className="h3 service-title">What I'm Doing</h2>
+        <h2 className="h3 service-title">What I&apos;m Doing</h2>
         <ul className="service-list">
           {serviceData.map((service, index) => (
             <Service
@@ -124,40 +121,17 @@ const About = () => {
         </ul>
       </section>
 
-      {/* Clients */}
+      {/* Clients Section */}
       <section className="clients">
         <h3 className="h3 clients-title">Clients</h3>
         <ul className="clients-list has-scrollbar">
-          <li className="clients-item">
-            <a href="">
-              <img src="/images/logo-1-color.png" alt="" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="">
-              <img src="/images/logo-2-color.png" alt="" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="">
-              <img src="/images/logo-3-color.png" alt="" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="">
-              <img src="/images/logo-4-color.png" alt="" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="">
-              <img src="/images/logo-5-color.png" alt="" />
-            </a>
-          </li>
-          <li className="clients-item">
-            <a href="">
-              <img src="/images/logo-6-color.png" alt="" />
-            </a>
-          </li>
+          {[1, 2, 3, 4, 5, 6].map((num) => (
+            <li key={num} className="clients-item">
+              <a href="#">
+                <img src={`/images/logo-${num}-color.png`} alt={`Client ${num}`} />
+              </a>
+            </li>
+          ))}
         </ul>
       </section>
     </div>
