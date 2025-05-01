@@ -82,5 +82,12 @@
       "category": "Frontend",
       "image": "/images/Project-12.PNG",
       "imageUrl": "https://tigerfitness.vercel.app/"
+  },
+  {
+    "id": 13,
+      "title": "Chat GPT Clone",
+      "category": "Full Stack (Frontend + Node)",
+      "image": "/images/Project-13.PNG",
+      "imageUrl": "https://github.com/Vasudev290/MERN-Stack-Pro/tree/main/Chat-GPT-Clone"
   }
 ]
