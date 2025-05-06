@@ -89,5 +89,12 @@
       "category": "Full Stack (Frontend + Node)",
       "image": "/images/Project-13.PNG",
       "imageUrl": "https://github.com/Vasudev290/MERN-Stack-Pro/tree/main/Chat-GPT-Clone"
+  },
+  {
+    "id": 14,
+      "title": "Loan Calculator App",
+      "category": "Frontend + React",
+      "image": "/images/Project-14.PNG",
+      "imageUrl": "https://loan-calculator-app-blue.vercel.app/"
   }
 ]
