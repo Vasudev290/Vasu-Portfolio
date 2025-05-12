@@ -96,5 +96,12 @@
       "category": "Frontend + React",
       "image": "/images/Project-14.PNG",
       "imageUrl": "https://loan-calculator-app-blue.vercel.app/"
+  },
+  {
+    "id": 15,
+      "title": "Task Manager App",
+      "category": "Full Stack (Frontend + Node)",
+      "image": "/images/Project-15.PNG",
+      "imageUrl": "https://github.com/Vasudev290/Task-Manager-App"
   }
 ]
