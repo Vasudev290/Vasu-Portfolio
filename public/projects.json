@@ -103,5 +103,12 @@
       "category": "Full Stack (Frontend + Node)",
       "image": "/images/Project-15.PNG",
       "imageUrl": "https://github.com/Vasudev290/Task-Manager-App"
+  },
+  {
+    "id": 16,
+      "title": "Netflix-GPT",
+      "category": "Frontend + React",
+      "image": "/images/Project-16.PNG",
+      "imageUrl": "https://netflix-gpt-lyart-beta.vercel.app/"
   }
 ]
